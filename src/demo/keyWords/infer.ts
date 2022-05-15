@@ -5,3 +5,7 @@ let string: isString<'s'>;
 
 // b 的类型为 false
 let number: isString<1>;
+
+
+type Flatten<Type> = Type extends Array<infer Item> ? Item : Type;
+
