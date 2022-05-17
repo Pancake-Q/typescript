@@ -1,4 +1,4 @@
-let myName: unknown;
+let unKnown: unknown;
 
 myName = 1;
 
