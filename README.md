@@ -26,3 +26,5 @@ typescript demo
 ### bigint
 
 ## 类型缩小
+
+## 函数重载
