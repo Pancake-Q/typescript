@@ -16,3 +16,18 @@ type Keys = keyof IProps;
 function getValueFromKey<T extends object, K extends keyof T>(obj: T, key: K) {
 	return obj[key];
 }
+
+//typeof 类型守卫
+function printAll(strs: string | string[] | null) {
+	if (typeof strs === 'object') {
+		//类型缩小要注意缩小范围是否符合
+		//@ts-ignore
+		for (const s of strs) {
+			console.log(s);
+		}
+	} else if (typeof strs === 'string') {
+		console.log(strs);
+	} else {
+		// 做点事
+	}
+}
