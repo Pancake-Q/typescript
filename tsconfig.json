@@ -8,6 +8,10 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths":{
+      "@/*":["src/*"]
+    }
   }
 }

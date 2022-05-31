@@ -1,4 +1,4 @@
-type Shape = Circle | Square;
+
 function getArea(shape: Shape) {
 	switch (shape.kind) {
 		case 'circle':

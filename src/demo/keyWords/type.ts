@@ -1,11 +1,4 @@
-type Fish = {
-	name: string;
-	swim: () => void;
-};
-type Bird = {
-	name: string;
-	fly: () => void;
-};
+import { Fish, Bird } from '@/demo/type';
 function isFish(pet: Fish | Bird): pet is Fish {
 	return (pet as Fish).swim !== undefined;
 }
