@@ -33,8 +33,3 @@ typescript demo
 
 ## 类型
 ## dageka 
-
-## 打个卡
-## 打卡
-## 打卡
-## 打卡
