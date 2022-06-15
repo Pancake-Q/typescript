@@ -1,6 +1,5 @@
 //案例一
-type Fish = { swim: () => void };
-type Bird = { fly: () => void };
+import { Fish, Bird } from '../type';
 function move(animal: Fish | Bird) {
 	if ('swim' in animal) {
 		return animal.swim();
@@ -9,15 +8,13 @@ function move(animal: Fish | Bird) {
 }
 
 //案例二
-type Fish1 = { swim: () => void };
-type Bird1 = { fly: () => void };
-type Human1 = { swim?: () => void; fly?: () => void };
-function move1(animal: Fish | Bird | Human1) {
+type Human = { swim?: () => void; fly?: () => void };
+function move1(animal: Fish | Bird | Human) {
 	if ('swim' in animal) {
-		// animal: Fish | Human1
+		// animal: Fish | Human
 		animal;
 	} else {
-		// animal: Bird | Human1
+		// animal: Bird | Human
 		animal;
 	}
 }

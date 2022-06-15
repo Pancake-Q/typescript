@@ -23,8 +23,13 @@ typescript demo
 
 ## 基本类型
 
-### bigint
+### bigInt
 
 ## 类型缩小
 
 ## 函数重载
+
+## 函数签名
+
+## 类型
+## dageka 
