@@ -31,5 +31,5 @@ typescript demo
 
 ## 函数签名
 
+
 ## 类型
-## dageka 
