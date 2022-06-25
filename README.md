@@ -37,3 +37,5 @@ typescript demo
 ## this
 
 ## this 类型
+
+## 静态
