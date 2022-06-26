@@ -39,3 +39,5 @@ typescript demo
 ## this 类型
 
 ## 静态
+
+## reademe 
