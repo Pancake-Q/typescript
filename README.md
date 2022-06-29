@@ -41,3 +41,5 @@ typescript demo
 ## 静态
 
 ## reademe 
+
+## daka
