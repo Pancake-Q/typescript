@@ -40,8 +40,3 @@ typescript demo
 
 ## 静态
 
-## reademe 
-
-## daka
-
-## 打卡
