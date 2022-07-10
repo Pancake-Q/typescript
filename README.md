@@ -31,12 +31,6 @@ typescript demo
 
 ## 函数签名
 
-
-## 类型
-
-## this
-
 ## this 类型
 
 ## 静态
-
