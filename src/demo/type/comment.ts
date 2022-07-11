@@ -54,3 +54,19 @@ const cats: Record<CatName, CatInfo> = {
 };
 // const cats: Record<CatName, CatInfo>
 cats.boris;
+
+/**
+ * Pick<Type, Keys>:通过从 Type 中选取属性集合Keys （属性名或属性名的联合）来构造一个类型。
+ */
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+type TodoPreview = Pick<Todo, 'title' | 'completed'>;
+const todo: TodoPreview = {
+  title: 'Clean room',
+  completed: false,
+};
+// const todo: TodoPreview
+todo;
