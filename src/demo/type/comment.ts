@@ -70,3 +70,29 @@ const todo: TodoPreview = {
 };
 // const todo: TodoPreview
 todo;
+
+/**
+ * Omit<Type, Keys>:通过从 Type 中选取所有属性，然后删除 Keys （属性名或属性名的联合）来构造一个类型。
+ */
+
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: number;
+}
+type TodoPreview = Omit<Todo, 'description'>;
+const todo: TodoPreview = {
+  title: 'Clean room',
+  completed: false,
+  createdAt: 1615544252770,
+};
+// const todo: TodoPreview
+todo;
+type TodoInfo = Omit<Todo, 'completed' | 'createdAt'>;
+const todoInfo: TodoInfo = {
+  title: 'Pick up kids',
+  description: 'Kindergarten closes at 5pm',
+};
+// const todoInfo: TodoInfo
+todoInfo;
