@@ -32,3 +32,5 @@ typescript demo
 ## 函数签名
 
 ## this 类型
+
+## comments
