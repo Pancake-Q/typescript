@@ -31,5 +31,8 @@ typescript demo
 
 ## 函数签名
 
-## 类型
-## dageka 
+## this 类型
+
+## comments
+
+## 
