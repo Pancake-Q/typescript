@@ -34,5 +34,3 @@ typescript demo
 ## this 类型
 
 ## comments
-
-## 
