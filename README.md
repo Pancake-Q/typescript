@@ -30,7 +30,5 @@ typescript demo
 ## 函数重载
 
 ## 函数签名
-
 ## this 类型
-
 ## comments
