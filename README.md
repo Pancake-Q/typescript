@@ -28,7 +28,6 @@ typescript demo
 ## 类型缩小
 
 ## 函数重载
-
 ## 函数签名
 ## this 类型
 ## comments
