@@ -1,0 +1,1 @@
+// 一个布尔值，表示一个对象应该被 Array.prototype.concat 平铺到其数组元素。
