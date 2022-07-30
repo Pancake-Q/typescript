@@ -33,3 +33,5 @@ typescript demo
 ## comments
 
 ## ts
+
+## for of for in 
