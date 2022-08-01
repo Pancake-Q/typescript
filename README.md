@@ -34,4 +34,4 @@ typescript demo
 
 ## ts
 
-## for of for in 
+## 修饰器
