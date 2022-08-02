@@ -8,16 +8,16 @@ typescript demo
 
 ```json
 {
-	"compilerOptions": {
-		/* Language and Environment */
-		"target": "es6",
-		/* Modules */
-		"rootDir": "./src",
-		/* Emit */
-		"outDir": "./dist",
-		/* Type Checking */
-		"strict": true
-	}
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es6",
+    /* Modules */
+    "rootDir": "./src",
+    /* Emit */
+    "outDir": "./dist",
+    /* Type Checking */
+    "strict": true
+  }
 }
 ```
 
@@ -28,10 +28,15 @@ typescript demo
 ## 类型缩小
 
 ## 函数重载
+
 ## 函数签名
+
 ## this 类型
+
 ## comments
 
-## ts
+## ts import
+
+## 基本完成 需要细化
 
 ## 修饰器
