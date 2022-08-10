@@ -4,6 +4,8 @@ typescript demo
 
 ## src文件目录
 > npx treer -d 导出文件树目录
+
+
 ├─demo
 | ├─valueNarrow
 | | ├─allotNarrow.ts
