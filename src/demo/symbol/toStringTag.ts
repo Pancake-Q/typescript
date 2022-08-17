@@ -1,0 +1,1 @@
+// 一个字符串值，用于创建一个对象的默认字符串描述。由内置方法Object.prototype.toString 调用
